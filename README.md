@@ -2,7 +2,7 @@
 
 This project contains two Solidity smart contracts that implement a basic DAO (Decentralized Autonomous Organization) system with its own governance token:
 
-## 📄 Contracts Included
+##  Contracts Included
 
 ### 1. `GovernanceToken.sol`
 A custom ERC-20 token based on OpenZeppelin's implementation. This token acts as the governance token for the DAO.
@@ -16,7 +16,7 @@ A custom ERC-20 token based on OpenZeppelin's implementation. This token acts as
 
 Uses OpenZeppelin's `ERC20` and `Ownable` contracts.
 
----
+
 
 ### 2. `LandCouncilDAO.sol`
 A minimal DAO contract where token holders can create proposals and vote. This DAO governs actions related to land registration or other community-based decisions.
@@ -29,48 +29,30 @@ A minimal DAO contract where token holders can create proposals and vote. This D
       uint256 votesAgainst;
       bool executed;
   }
-  ```
+  
 - **Key Functions:**  
   - `createProposal(string description)`
   - `vote(uint proposalId, bool support)`
   - `executeProposal(uint proposalId)`
 
-Access control and weight of votes can be improved in future versions to consider token balances.
 
----
 
-## 🛠 Technologies Used
+
+##  Technologies Used
 
 - Solidity ^0.8.20  
 - OpenZeppelin Contracts v5.0.0  
 - Remix IDE (for deployment and testing)
 
----
 
-## 🚀 Getting Started
 
-### Prerequisites
 
-- [Node.js](https://nodejs.org/)
-- [Hardhat](https://hardhat.org/)
-- MetaMask & Sepolia ETH for testnet deployments
-
-### Compile & Deploy
-
-```bash
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network sepolia
-```
-
-*(You can also deploy using Remix, as was done in this project.)*
-
----
-
-## 📌 License
+##  License
 
 MIT — free to use, modify, and build upon.
 
----
 
-**Author:** Gringo  
-**Contact:** @Andrei_Shapkin (Telegram)
+
+## Author
+ Contact: [@Andrei_Shapkin](https://t.me/Andrei_Shapkin)  
+ GitHub: [Gringo-Solidity](https://github.com/Gringo-Solidity)
