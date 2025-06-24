@@ -47,12 +47,6 @@ A minimal DAO contract where token holders can create proposals and vote. This D
 
 
 
-##  License
-
-MIT — free to use, modify, and build upon.
-
-
-
 ## Author
  Contact: [@Andrei_Shapkin](https://t.me/Andrei_Shapkin)  
  GitHub: [Gringo-Solidity](https://github.com/Gringo-Solidity)
